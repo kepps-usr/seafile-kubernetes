@@ -18,4 +18,4 @@ And if you want to testing from your local you have to change the SERVICE_URL an
 
 Example :
 
-![IMAGE_DESCRIPTION](https://cicd-gitlab.protonema.co.id/devops/seafile-project/-/raw/main/img/example.png)
+![IMAGE_DESCRIPTION](https://raw.githubusercontent.com/kepps-usr/seafile-kubernetes/main/img/example.png)
