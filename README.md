@@ -1,6 +1,8 @@
-to deploy seafile-testing-v4-final-with-secret.yaml you must create a secret for seafile_db and seafile_server
+Don't forget to change the namespace and path or other configuration as you need
 
-follow this command :
+To deploy seafile-testing-v4-final-with-secret.yaml you must create a secret for seafile_db and seafile_server.
+
+Follow this command :
 
 # Seafile Database Secret
     kubectl create secret generic seafile-db-secret -n seafile-testing \
@@ -12,8 +14,8 @@ follow this command :
 	--from-literal=SEAFILE_ADMIN_EMAIL=admin@email.com \
 	--from-literal=SEAFILE_ADMIN_PASSWORD=changeme
 
-and if you want to testing from your local you have to change the SERVICE_URL and FILE_SERVER_ROOT with port you use to forward from service
+And if you want to testing from your local you have to change the SERVICE_URL and FILE_SERVER_ROOT with port you use to forward from service.
 
-example :
+Example :
 
 ![IMAGE_DESCRIPTION](https://cicd-gitlab.protonema.co.id/devops/seafile-project/-/raw/main/img/example.png)
