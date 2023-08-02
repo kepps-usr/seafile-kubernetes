@@ -11,3 +11,9 @@ follow this command :
     --from-literal=DB_ROOT_PASSWD=changeme \
 	--from-literal=SEAFILE_ADMIN_EMAIL=admin@email.com \
 	--from-literal=SEAFILE_ADMIN_PASSWORD=changeme
+
+and if you want to testing from your local you have to change the SERVICE_URL and FILE_SERVER_ROOT with port you use to forward from service
+
+example :
+
+![IMAGE_DESCRIPTION](https://cicd-gitlab.protonema.co.id/devops/seafile-project/-/raw/main/img/example.png)
